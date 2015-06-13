@@ -28,6 +28,7 @@ def PrintFunction(i, count, index1, index2):
 print("tree = {");
 num_list = [1, 5, 4];
 
+#   Call RecursiveFunction
 for i in range(3):
     RecursiveFunction(i, num_list[i], num_list[0], num_list[1]);
 
